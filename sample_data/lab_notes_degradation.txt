@@ -1,0 +1,16 @@
+# Cell degradation - lab notes
+
+## Formation and the SEI layer
+During the first charge cycles a solid electrolyte interphase (SEI) forms on the graphite anode. The SEI consumes some of the cyclable lithium, so a new cell typically loses 5-10% of its capacity during formation. A stable SEI protects the electrolyte from further decomposition, but it keeps growing slowly, which is a main cause of capacity fade.
+
+## Main ageing mechanisms
+- Lithium plating: charging below 0 °C or at a high C-rate deposits metallic lithium on the anode surface, which permanently removes lithium and can grow dendrites that cause internal short circuits.
+- Cathode cracking: repeated expansion and contraction fractures particles of nickel-rich cathodes and exposes fresh surface to the electrolyte.
+- Calendar ageing: cells age even when idle, and storage at a high state of charge speeds this up. Keeping the state of charge between 20% and 80% extends life.
+- Heat: as a rule of thumb, each 10 °C rise in temperature roughly doubles the rate of chemical degradation. The best operating temperature is 20-25 °C.
+
+## Thermal safety
+Exothermic decomposition of the SEI layer starts at about 80 °C, well before full thermal runaway. If the heat cannot escape, the separator melts, the electrodes short, and the cell vents flammable electrolyte vapour.
+
+## Our cycling results
+In our tests LFP cells retained 80% of their capacity after 3,200 cycles, while NMC cells reached the same 80% threshold after about 1,400 cycles at 25 °C and 1C charge/discharge.

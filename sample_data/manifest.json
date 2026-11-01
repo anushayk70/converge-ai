@@ -1,0 +1,26 @@
+{
+  "name": "Lithium-Ion Battery Technology",
+  "description": "How lithium-ion batteries work, how they are used in EVs, how they degrade, what comes next (solid-state) and what they cost. Demo workspace: five illustrative sources with overlapping facts, unique details and a few disagreements.",
+  "resources": [
+    {
+      "file": "li_ion_fundamentals.pdf",
+      "name": "Li-ion Fundamentals (course notes).pdf"
+    },
+    {
+      "file": "ev_applications_report.docx",
+      "name": "EV Applications Report.docx"
+    },
+    {
+      "file": "lab_notes_degradation.txt",
+      "name": "Lab notes - degradation.txt"
+    },
+    {
+      "file": "solid_state_news.html",
+      "name": "Solid-state batteries article.html"
+    },
+    {
+      "name": "Analyst briefing (pasted text)",
+      "text": "Analyst briefing: costs, materials and recycling\n\nEvery lithium-ion cell is built from an anode, a cathode, an electrolyte and a separator. BloombergNEF put the global average battery pack price at $139 per kWh in 2023, roughly 90% lower than in 2010. Lithium carbonate prices dropped sharply during 2023 after the spike of 2022, which helped pack prices.\n\nRecycling is becoming a strategic issue. Hydrometallurgical processes can recover more than 95% of the cobalt and nickel from spent cells, and recovered lithium can be returned to cathode production. The EU Battery Regulation requires minimum recycled content in new batteries from 2031: 16% for cobalt, 6% for lithium and 6% for nickel.\n\nCobalt supply is concentrated, with most mined in the Democratic Republic of the Congo, so many manufacturers are moving to cobalt-free LFP chemistries. Analysts also note that thermal runaway remains the main safety concern, which is why pack designers add cooling plates and thermal barriers between cells."
+    }
+  ]
+}

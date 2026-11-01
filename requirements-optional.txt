@@ -1,0 +1,8 @@
+# Optional upgrades. Converge AI runs without these, but reports which fallback it is using.
+
+# True semantic embeddings (strongly recommended). Downloads a model from HuggingFace on first use.
+sentence-transformers>=3.0
+
+# Local speech transcription for audio/video (downloads a Whisper model on first use).
+# Alternative: set TRANSCRIBE_PROVIDER=api and use any OpenAI-compatible /audio/transcriptions endpoint.
+faster-whisper>=1.0
